@@ -1,0 +1,16 @@
+#mysql
+druid:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/db_test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driverClassname: com.mysql.cj.jdbc.Driver
+    username: root
+    password: foxconn
+
+#postgreSql配置
+pg:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/test
+  username: postgres
+  password: ROOT
+
